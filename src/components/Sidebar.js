@@ -20,7 +20,6 @@ function Sidebar() {
         if (isPublic) {
             setPrivateMemberMsg(null);
         }
-        // dispatch for notifications
         dispatch(resetNotifications(room));
     }
 
